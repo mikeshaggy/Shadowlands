@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.act1.Scene1Controller">
+    <children>
+        <Button fx:id="inventoryButton" layoutX="14.0" layoutY="526.0" mnemonicParsing="false" onAction="#showInventory" prefHeight="60.0" prefWidth="170.0" text="Ekwipunek">
+            <font>
+                <Font name="Skia" size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="optionsButton" layoutX="686.0" layoutY="14.0" mnemonicParsing="false" onAction="#showOptions" prefHeight="60.0" prefWidth="100.0" text="Opcje">
+            <font>
+                <Font name="Skia" size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="storeButton" layoutX="235.0" layoutY="100.0" mnemonicParsing="false" onAction="#goToStore" prefHeight="55.0" prefWidth="330.0" text="Sklep">
+            <font>
+                <Font name="Skia" size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="darkAlleyButton" layoutX="235.0" layoutY="200.0" mnemonicParsing="false" onAction="#goToDarkAlley" prefHeight="55.0" prefWidth="330.0" text="Ciemny Zaułek">
+            <font>
+                <Font name="Skia" size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="forestButton" layoutX="235.0" layoutY="300.0" mnemonicParsing="false" onAction="#goToForest" prefHeight="55.0" prefWidth="330.0" text="Las">
+            <font>
+                <Font name="Skia" size="36.0" />
+            </font>
+        </Button>
+        <Button fx:id="townHallButton" layoutX="235.0" layoutY="400.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="330.0" text="Ratusz">
+            <font>
+                <Font name="Skia" size="36.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.prologue.Scene9Controller">
+    <children>
+        <Label fx:id="label1" layoutX="20.0" layoutY="80.0" prefHeight="54.0" prefWidth="760.0" text="Dotarliśmy do naszego celu - mówi starzec, uśmiechając się lekko. - Teraz nadszedł czas, abyś odkrywał tę Krainę Cieni na własną rękę. Miejsce to jest pełne tajemnic, ukrytych skarbów i niebezpieczeństw, ale jestem pewien, że posiadasz w sobie siłę i zdolności, aby im sprostać." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Skia" size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="nextButton" layoutX="680.0" layoutY="526.0" mnemonicParsing="false" onAction="#next" prefHeight="60.0" prefWidth="100.0" text="Dalej">
+            <font>
+                <Font name="Skia" size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="inventoryButton" layoutX="14.0" layoutY="526.0" mnemonicParsing="false" onAction="#showInventory" prefHeight="60.0" prefWidth="170.0" text="Ekwipunek">
+            <font>
+                <Font name="Skia" size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="optionsButton" layoutX="686.0" layoutY="14.0" mnemonicParsing="false" onAction="#showOptions" prefHeight="60.0" prefWidth="100.0" text="Opcje">
+            <font>
+                <Font name="Skia" size="20.0" />
+            </font>
+        </Button>
+        <Label fx:id="label2" alignment="CENTER" layoutX="20.0" layoutY="152.0" prefHeight="28.0" prefWidth="760.0" text="Starzec kładzie delikatnie dłoń na twoim ramieniu i kontynuuje:" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Skia" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="label3" layoutX="20.0" layoutY="195.0" prefHeight="60.0" prefWidth="760.0" text="Będę tu czekał w ratuszu, gotowy, by udzielić ci pomocy, kiedy jej będziesz potrzebował. Ale teraz nadszedł czas, abyś samodzielnie odkrywał, eksplorował i rozwijał swoje umiejętności. To twoja podróż, a ja wierzę, że jesteś w stanie osiągnąć wielkie rzeczy." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Skia" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="label4" layoutX="20.0" layoutY="300.0" prefHeight="60.0" prefWidth="760.0" text="Z determinacją w sercu, patrzysz jak starzec znika za rozpadającymi się drzwi ratusza. Jesteś gotowy, by stanąć twarzą w twarz z kolejnymi tajemnicami i wyzwaniami, wiedząc, że starzec czeka na ciebie, gotów do udzielenia ci pomocy w każdej chwili. Twoja przygoda właśnie rozpoczyna się, a los Krainy Cieni jest teraz w twoich rękach." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Skia" size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

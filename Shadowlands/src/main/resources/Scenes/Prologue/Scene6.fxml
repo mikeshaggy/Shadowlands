@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.prologue.Scene6Controller">
+    <children>
+        <Button fx:id="nextButton" layoutX="686.0" layoutY="526.0" mnemonicParsing="false" onAction="#next" prefHeight="60.0" prefWidth="100.0" text="Dalej">
+            <font>
+                <Font name="Skia" size="20.0" />
+            </font>
+        </Button>
+        <Label fx:id="label1" alignment="CENTER" layoutX="14.0" layoutY="80.0" prefHeight="60.0" prefWidth="760.0" text="W tym miejscu znajduje się również niewielki sklep, jedno z niewielu miejsc, które przetrwało w tym opustoszałym mieście. Za oknem widzisz wystawione na półkach broń, zbroje i różne przedmioty przydatne w walce z cieniami. Wewnątrz sklepu czeka starszy mężczyzna o twarzy zatroskanej, ale pełen chęci pomocy." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Skia" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="label2" layoutX="14.0" layoutY="155.0" prefHeight="60.0" prefWidth="760.0" text="Starzec kieruje się ku wejściu do ratusza, wzywając cię, byś podążył za nim. Jednak zatrzymuje się na chwilę, spostrzegając twoje zainteresowanie sklepem. Uśmiecha się lekko i mówi:" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Skia" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="label3" alignment="CENTER" layoutX="14.0" layoutY="234.0" prefHeight="132.0" prefWidth="760.0" text="- Zanim będziemy kontynuować naszą misję, możemy zahaczyć o ten sklep. Możesz w nim znaleźć przedmioty, które będą pomocne w twojej podróży przez Krainę Cieni. Twoja sakiewka pewnie jest pusta, masz tutaj 50 monet. Przydałby ci się eliksir uzdrawiający, więc zwróć na nie uwagę." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Skia" size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

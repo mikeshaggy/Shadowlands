@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.general.InventoryController">
+    <children>
+        <Label fx:id="nameLabel" alignment="CENTER" layoutY="35.0" prefWidth="800.0" text="IMIĘ" textFill="WHITE">
+            <font>
+                <Font name="Skia" size="35.0" />
+            </font>
+        </Label>
+        <Label fx:id="raceLabel" layoutX="50.0" layoutY="100.0" text="Rasa: Krasnolud" textFill="WHITE">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Label>
+        <Label fx:id="classLabel" layoutX="50.0" layoutY="150.0" text="Klasa: Wojownik" textFill="WHITE">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Label>
+        <Label fx:id="lvlLabel" layoutX="50.0" layoutY="200.0" text="Poziom:" textFill="WHITE">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Label>
+        <Label layoutX="50.0" layoutY="250.0" text="PD:" textFill="WHITE" fx:id="xpLabel">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Label>
+        <Label fx:id="goldLabel" layoutX="50.0" layoutY="300.0" text="Złoto:" textFill="WHITE">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Label>
+        <Label fx:id="helmetLabel" layoutX="50.0" layoutY="400.0" text="Hełm:" textFill="WHITE">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Label>
+        <Label fx:id="weaponLabel" layoutX="50.0" layoutY="350.0" text="Broń:" textFill="WHITE">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Label>
+        <Label fx:id="armorLabel" layoutX="50.0" layoutY="450.0" text="Zbroja:" textFill="WHITE">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Label>
+        <Label fx:id="trousersLabel" layoutX="50.0" layoutY="500.0" text="Spodnie: Płócienne spodnie" textFill="WHITE">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Label>
+        <Label fx:id="bootsLabel" layoutX="50.0" layoutY="550.0" text="Buty:" textFill="WHITE">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" alignment="TOP_CENTER" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#goBackToPreviousScene" prefHeight="30.0" prefWidth="100.0" text="Powrót">
+            <font>
+                <Font name="Skia" size="10.0" />
+            </font>
+        </Button>
+        <Label fx:id="strengthLabel" alignment="CENTER_RIGHT" layoutX="576.0" layoutY="100.0" prefHeight="29.0" prefWidth="156.0" text="Siła: 50" textFill="WHITE">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Label>
+        <Label fx:id="healthLabel" alignment="CENTER_RIGHT" layoutX="429.0" layoutY="150.0" prefHeight="29.0" prefWidth="303.0" text="Punkty zdrowia:  20/80" textFill="WHITE">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Label>
+        <Label fx:id="agilityLabel" alignment="CENTER_RIGHT" layoutX="576.0" layoutY="200.0" prefHeight="29.0" prefWidth="156.0" text="Zręczność: 50" textFill="WHITE">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Label>
+        <Label fx:id="fortuneLabel" alignment="CENTER_RIGHT" layoutX="576.0" layoutY="250.0" prefHeight="29.0" prefWidth="156.0" text="Szczęście: 69" textFill="WHITE">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Label>
+        <Button fx:id="backpackButton" layoutX="582.0" layoutY="463.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="150.0" text="Plecak">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Button>
+        <Label fx:id="healthPotionsLabel" alignment="CENTER_RIGHT" layoutX="418.0" layoutY="300.0" prefHeight="29.0" prefWidth="314.0" text="Eliksiry uzdrawiające: 999" textFill="WHITE">
+            <font>
+                <Font name="Skia" size="25.0" />
+            </font>
+        </Label>
+        <Button fx:id="healButton" layoutX="373.0" layoutY="300.0" mnemonicParsing="false" onAction="#heal" prefHeight="30.0" prefWidth="55.0" text="Użyj">
+            <font>
+                <Font name="Skia" size="15.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

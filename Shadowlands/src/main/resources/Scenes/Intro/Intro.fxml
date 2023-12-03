@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.intro.IntroController">
+    <children>
+        <Label fx:id="label1" layoutX="13.0" layoutY="50.0" prefHeight="54.0" prefWidth="774.0" text="Wkraczasz do Krainy Cieni, mrocznego i tajemniczego świata, czujesz, jak zimny powiew wiatru przeszywa twoje ciało. Niebo jest pokryte ciemnymi chmurami, które nie przepuszczają ani promienia słońca. " textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Skia" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="label2" layoutX="13.0" layoutY="100.0" prefHeight="74.0" prefWidth="774.0" text="Twoim celem w tej przeklętej krainie jest odkrycie prawdy, która spoczywa na jej złowieszczych ziemiach. Klątwa, która ogarnęła to miejsce, przyniosła ze sobą śmierć i zniszczenie, a wszyscy, którzy odważyli się tu przybyć, zaginęli lub zostali pochłonięci przez cieni." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Skia" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="label3" layoutX="13.0" layoutY="150.0" prefHeight="116.0" prefWidth="774.0" text="Twoja postać wyrusza na tę niebezpieczną wyprawę, dążąc do rozwikłania tajemnicy, która dręczy Krainę Cieni. Podążając przez mroczne lasy, pełne ukrytych pułapek i potworów, oraz przemierzając zapomniane grobowce i ruiny opuszczone przez dawne cywilizacje, musisz zgłębić sekrety tego świata." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Skia" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="label4" layoutX="13.0" layoutY="225.0" prefHeight="116.0" prefWidth="774.0" text="Twoje umiejętności i odwaga będą kluczem do przeżycia w tym nieprzyjaznym miejscu. Musisz zdobyć wiedzę, znaleźć sprzymierzeńców i odkryć artefakty, które pomogą ci w walce ze złem. Jednak pamiętaj, że każdy krok, jaki podejmiesz, może przynieść zarówno sukces, jak i porażkę." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Skia" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="label5" layoutX="13.0" layoutY="341.0" prefHeight="96.0" prefWidth="774.0" text="Czy uda ci się rozwikłać tajemnicę Klątwy Cieni? Czy przywrócisz światło i nadzieję w tej zatrutej krainie? To zadanie stoi przed tobą, wędrowcze. Czas wyruszyć w pełną niebezpieczeństw podróż przez Krainę Cieni i zmierzyć się z losem, który tam panuje." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Skia" size="20.0" />
+            </font>
+        </Label>
+        <Button fx:id="nextButton" layoutX="685.0" layoutY="532.0" mnemonicParsing="false" onAction="#next" prefHeight="54.0" prefWidth="101.0" text="Dalej">
+            <font>
+                <Font name="Skia" size="15.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.prologue.Scene2Controller">
+    <children>
+        <Label fx:id="label1" layoutX="20.0" layoutY="80.0" prefHeight="70.0" prefWidth="760.0" text="Gdy odmawiasz, starzec spogląda na ciebie z wyrazem zaniepokojenia. Jego oczy rozpaczliwie przemawiają do ciebie, próbując cię przekonać." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Skia" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="label2" layoutX="20.0" layoutY="150.0" prefHeight="120.0" prefWidth="760.0" text="- Rozumiem twoje obawy, ale musisz zrozumieć, że jesteś ostatnią deską ratunku dla Krainy Cieni. Jeśli odwrócisz się teraz, nie będzie już nadziei dla tego zatopionego w mroku królestwa. Ty posiadasz w sobie moc, której nikt inny nie ma. To twój los, by stawić czoło mrocznemu losowi i przywrócić światło. Nie martw się, pomogę Ci i jestem pewny, że wspólnymi siłami uratujemy Krainę Cieni." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Skia" size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="label3" layoutX="20.0" layoutY="270.0" prefHeight="70.0" prefWidth="760.0" text="Starzec wyciąga rękę i delikatnie dotyka twojej dłoni, wzywając cię, byś podążył za nim. Masz przed sobą niezwykłą przygodę, a twój los jest teraz połączony z losem Krainy Cieni." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <font>
+                <Font name="Skia" size="15.0" />
+            </font>
+        </Label>
+        <Button fx:id="nextButton" layoutX="686.0" layoutY="526.0" mnemonicParsing="false" onAction="#next" prefHeight="60.0" prefWidth="100.0" text="Dalej">
+            <font>
+                <Font name="Skia" size="20.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
+
