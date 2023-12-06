@@ -8,6 +8,7 @@ Welcome to Shadowlands, a text-based role-playing game developed using Java. Thi
 - Java
 - JavaFX
 - Maven
+- SceneBuilder
 
 ## System Requirements
 To run the game, make sure you have the following installed:
