@@ -6,16 +6,6 @@ Developed as a comprehensive coursework assignment for the Object-Oriented Progr
 
 Embark on an immersive journey into Shadowlands, a meticulously crafted text-based role-playing game developed using Java. The project seamlessly integrates the JavaFX library to deliver a visually captivating user interface, allowing players to delve into a rich virtual world and savor the excitement of this Java-powered RPG.
 
-## Screenshots
-
-Witness the visual allure of Shadowlands through these carefully selected in-game scenes:
-
-![Introduction](Images/Introduction.png)
-![App](Images/App.png)
-![Game](Images/Game.png)
-![Shop](Images/Shop.png)
-![Overview](Images/Overview.png)
-
 ## Technologies
 
 Diving into the technical aspects, Shadowlands employs the following technologies:
