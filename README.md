@@ -35,7 +35,7 @@ Follow these steps to install and run Shadowlands:
 
 **Michał Bagan**
 
-Connect with the author:
+Feel free to contact me:
 
 - [GitHub](https://github.com/mikeshaggy)
-- [LinkedIn](https://www.linkedin.com/in/michał-bagan-766999256/)
+- [LinkedIn](www.linkedin.com/in/michalbagan)
